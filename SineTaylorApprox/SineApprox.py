@@ -1,7 +1,7 @@
 from manim import *
 
 
-class TaylorSeriesOfSine(Scene):
+class SineApprox(Scene):
     def construct(self):
         # Create the axes for plotting
         axes = Axes(
